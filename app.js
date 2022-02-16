@@ -23,6 +23,7 @@ var displayTime = document.querySelector("#displayTime");
 var generateScram = document.querySelector("#newScram");
 var algName = document.querySelector('#algName');
 var scramDisplay = document.querySelector("#scramDisplay");
+var dispCont = document.querySelector('.display-container');
 
 
 
@@ -138,6 +139,7 @@ function selectAlg() {
 
 // timer will work when the spacebar key goes up
 // window.onkeyup = run;
+dispCont.addEventListener('click', run);
 window.addEventListener('keyup', (e) => {
     if(e.keyCode === 32){
         run();
