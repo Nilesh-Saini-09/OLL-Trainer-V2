@@ -17,8 +17,9 @@
   left: 0;
 }
 
-.footer-container .footer-left {
+.footer-container .footer-left a {
   color: #fff;
+  cursor: pointer;
   font-size: 1.3em;
 }
 

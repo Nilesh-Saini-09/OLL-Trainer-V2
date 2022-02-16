@@ -149,6 +149,7 @@ window.addEventListener('keyup', (e) => {
 generateOll();
 
 generateScramble.addEventListener('click', generateOll);
+displayTime.addEventListener('click', run);
 
 //Toggle Background
 
